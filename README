@@ -1,4 +1,5 @@
-The-Librarian
+# The-Librarian
+
 A production-grade, asynchronous Retrieval-Augmented Generation (RAG) platform that separates heavy document processing and vector ingestion pipelines from the user-facing application thread. Built with an event-driven framework, this project handles long-running document ingestion workflows reliably and at scale.
 
 ## 🏗️ System Architecture & Workflow
