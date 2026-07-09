@@ -1,0 +1,18 @@
+[project]
+name = "event-driven-rag-platform"
+version = "0.1.0"
+description = "Asynchronous, event-driven PDF RAG pipeline powered by Inngest, Qdrant, and OpenAI."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "inngest>=0.5.18",
+    "qdrant-client>=1.8.0",
+    "llama-index-core>=0.10.0",
+    "llama-index-readers-file>=0.1.0",
+    "openai>=2.0.0",
+    "streamlit>=1.32.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.31.0",
+]

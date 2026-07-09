@@ -1,0 +1,30 @@
+# Python venv
+.venv/
+venv/
+
+#Python cache
+__pycach__/
+*.__pycach__
+*.pyc
+.DS_Store
+
+# Environment files
+.env
+*.env
+
+# IDE files (e.g., VS Code)
+.vscode/
+
+# Data artifacts and vector stores (optional - keep local only)
+# This prevents data like chunked documents or FAISS indexes from being committed
+data/
+output/
+*.bin
+*.pkl
+*.faiss
+faiss_index/
+chroma_db/
+vector_store/
+embeddings.json
+chunks.json
+raw_files/
